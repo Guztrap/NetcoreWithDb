@@ -61,7 +61,7 @@ namespace connectoToPostgres.DAO
                 }
             }*/
 
-            var pagosBan = new PagosBanorte();
+            var pagosBan = new PagosBanorte();  
             var pagosInb = new PagosInbursa();
 
             var totalBan = pagosBan.GetTotal(5, 5);
