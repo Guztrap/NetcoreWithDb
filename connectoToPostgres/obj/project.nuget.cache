@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YODmc5a1WfsBIBz7NKSz8Z1w40d+FJuub1sMMYqHo0U8Oqrj437rTZotxVq5o6kmNEPbdXrriwuSAF+L151VmA==",
+  "dgSpecHash": "x8d0mzuoQ8SfjFUhOaCDjAMDXRRSuVMT3ql3V9vCgL2teXRE+z2qMGpwkkMIf5sv59/TA101Ztig4W+udTg/3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\gramirez\\Documents\\dojo\\connectoToPostgres\\connectoToPostgres\\connectoToPostgres.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gramirez\\.nuget\\packages\\colorzxing.net\\0.1.2\\colorzxing.net.0.1.2.nupkg.sha512",
     "C:\\Users\\gramirez\\.nuget\\packages\\consul\\0.7.2.6\\consul.0.7.2.6.nupkg.sha512",
     "C:\\Users\\gramirez\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.1.0\\microsoft.aspnetcore.hosting.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\gramirez\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.1.0\\microsoft.aspnetcore.hosting.server.abstractions.2.1.0.nupkg.sha512",

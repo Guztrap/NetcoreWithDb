@@ -60,5 +60,6 @@ C:\Users\gramirez\Documents\dojo\connectoToPostgres\connectoToPostgres\bin\Debug
 C:\Users\gramirez\Documents\dojo\connectoToPostgres\connectoToPostgres\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\gramirez\Documents\dojo\connectoToPostgres\connectoToPostgres\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\gramirez\Documents\dojo\connectoToPostgres\connectoToPostgres\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\gramirez\Documents\dojo\connectoToPostgres\connectoToPostgres\bin\Debug\netcoreapp3.0\ColorZXing.dll
 C:\Users\gramirez\Documents\dojo\connectoToPostgres\connectoToPostgres\obj\Debug\netcoreapp3.0\connectoToPostgres.csproj.CoreCompileInputs.cache
 C:\Users\gramirez\Documents\dojo\connectoToPostgres\connectoToPostgres\obj\Debug\netcoreapp3.0\connectoToPostgres.MvcApplicationPartsAssemblyInfo.cache

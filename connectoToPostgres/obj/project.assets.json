@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
+      "ColorZXing.Net/0.1.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "4.7.0",
+          "ZXing.Net": "0.16.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/ColorZXing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ColorZXing.dll": {}
+        }
+      },
       "Consul/0.7.2.6": {
         "type": "package",
         "dependencies": {
@@ -1921,6 +1934,20 @@
     }
   },
   "libraries": {
+    "ColorZXing.Net/0.1.2": {
+      "sha512": "+a4JzaKgT+XwPT+Bf25fPI4imErb4JdzRP7san6swFjHYe3hI5WNFnLNPye5xILUZljok9RxMxU74TVG7JBweQ==",
+      "type": "package",
+      "path": "colorzxing.net/0.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "colorzxing.net.0.1.2.nupkg.sha512",
+        "colorzxing.net.nuspec",
+        "icon.jpg",
+        "lib/net45/ColorZXing.dll",
+        "lib/netstandard2.0/ColorZXing.dll"
+      ]
+    },
     "Consul/0.7.2.6": {
       "sha512": "0inTc+PLbk/TELmdO12q5N/4lZ2kn5w2EmOqG0g686JXgr1OKEGPCuGZxWYE+NuROy7dwX/FBxKUTph7vuyjPA==",
       "type": "package",
@@ -6251,6 +6278,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "ColorZXing.Net >= 0.1.2",
       "Microsoft.EntityFrameworkCore >= 3.1.3",
       "Newtonsoft.Json >= 12.0.3",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 3.1.3",
@@ -6303,6 +6331,10 @@
     "frameworks": {
       "netcoreapp3.0": {
         "dependencies": {
+          "ColorZXing.Net": {
+            "target": "Package",
+            "version": "[0.1.2, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.1.3, )"

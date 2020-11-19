@@ -11,6 +11,7 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Drawing;
 using connectoToPostgres.AbstractClass;
+using ColorZXing;
 
 namespace connectoToPostgres.DAO
 {
@@ -34,7 +35,7 @@ namespace connectoToPostgres.DAO
         }
 
         public async Task<Student> SaveStudent(Student student)
-        {            
+        {
             /*var writer = new BarcodeWriter()
             {
                 Format = BarcodeFormat.QR_CODE,
@@ -47,7 +48,11 @@ namespace connectoToPostgres.DAO
             };
 
             var text = JsonConvert.SerializeObject(student);
-            var bitmap = writer.Write(text);
+            var bitmap = writer.Write(text);*/
+
+            var text = JsonConvert.SerializeObject(student);
+            var bitmap = ColorZXingMono.Encode(text, 300, 300, 1, Color.LightBlue);
+
             bitmap.Save(@"C:\Users\gramirez\Documents\dojo\qrtest.png", ImageFormat.Png);
 
             var base64String = string.Empty;
@@ -59,7 +64,7 @@ namespace connectoToPostgres.DAO
                     bmp.Save(ms, ImageFormat.Png);
                     base64String = Convert.ToBase64String(ms.GetBuffer());
                 }
-            }*/
+            }
 
             var pagosBan = new PagosBanorte();  
             var pagosInb = new PagosInbursa();
